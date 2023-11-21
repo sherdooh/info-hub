@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+    <div class="container nav_container">
+        <a href="index.html" class="nav_logo">INFO-HUB</a>
+        <ul class="nav_items">
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="signin.html">Signin</a></li>
+            <li class="nav_profile">
+                <div class="avatar">
+                    <img src="/images/avatar1.jpg" alt="">
+                </div>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="logout.html">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+        <button id="open_nav-btn"><i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+        <button id="close_nav-btn"><i class="fa fa-times" aria-hidden="true"></i>
+        </button>
+    </div>
+</nav>
+<!--===========================END OF NAV ====================--->
+
+
+<section class="form_section">
+    <div class="container form_section-container">
+        <h2>Edit category</h2>
+        <form action="" enctype="multipart/form-data">
+            <input type="text" placeholder="Title">
+            <textarea rows="4" placeholder="Description"></textarea>
+
+            <button type="submit" class="btn">Update Category</button>
+        </form>
+    </div>
+</section>
+
+<script src="footer-loader.js"></script>
+<script src="./main.js"></script>
+</body>
+</html> 
